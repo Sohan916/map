@@ -1,9 +1,9 @@
-import { Navbar } from "./components";
+import { Header } from "./components";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
     </div>
   );
 };
