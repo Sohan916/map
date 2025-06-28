@@ -18,7 +18,7 @@ const App = () => {
       zoom: 1, // starting zoom
     });
 
-    return map.remove();
+    return () => map.remove();
   }, []);
 
   return (
