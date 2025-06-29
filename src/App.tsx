@@ -24,8 +24,8 @@ const App = () => {
   return (
     <div>
       <Header />
-      <div className=" w-[20rem] h-[20rem]">
-        <div ref={mapContainer} className=" h-full w-full"></div>
+      <div className=" h-[calc(100vh-4rem)] w-full ">
+        <div ref={mapContainer} className="h-full w-full"></div>
       </div>
     </div>
   );
