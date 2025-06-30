@@ -17,7 +17,6 @@ const App = () => {
       center: [0, 0], // starting position [lng, lat]
       zoom: 1, // starting zoom
     });
-
     return () => map.remove();
   }, []);
 
