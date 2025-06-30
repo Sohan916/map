@@ -13,7 +13,7 @@ const App = () => {
 
     const map = new maplibregl.Map({
       container: mapContainer.current, // container id
-      style: "https://demotiles.maplibre.org/style.json", // style URL
+      style: "https://tiles.openfreemap.org/styles/liberty", // style URL
       center: [0, 0], // starting position [lng, lat]
       zoom: 1, // starting zoom
     });
