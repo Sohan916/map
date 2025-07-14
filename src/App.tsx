@@ -1,9 +1,10 @@
+import React from "react";
 import { Header } from "./components";
 import maplibregl, { Map } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { useEffect, useRef } from "react";
 
-const App = () => {
+export const App = () => {
   const mapContainer = useRef(null);
 
   useEffect(() => {
@@ -30,5 +31,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
