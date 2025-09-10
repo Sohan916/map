@@ -31,5 +31,3 @@ export const App = () => {
     </div>
   );
 };
-
-// Test.
